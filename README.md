@@ -1,5 +1,9 @@
 # OCR-Doc-parser
 
+## How it works
+![image](https://user-images.githubusercontent.com/43296932/207932348-ef596f58-6781-4863-95cc-feac9ea0976b.png)
+
+
 ## Usage
 ```py
 model = lp.models.Detectron2LayoutModel('lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config',
@@ -16,3 +20,4 @@ for f in files:
         langs = langs
     )
 ```
+# Dockerfile
