@@ -12,8 +12,6 @@ from epub_conversion.utils import open_book, convert_epub_to_lines
 from bs4 import BeautifulSoup
 import time
 
-os.system('export TESSDATA_PREFIX=/fsx/marianna/books/tessdata')
-os.system('export PATH=$PATH:TESSDATA_PREFIX')
 
 
 def process_epubs(filename, output_dir):
