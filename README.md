@@ -21,3 +21,4 @@ for f in files:
     )
 ```
 # Dockerfile
+There's a [Dockerfile](https://github.com/marianna13/OCR-Doc-parser/blob/main/Dockerfile) available for using the doc parser.
